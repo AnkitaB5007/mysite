@@ -1,0 +1,6 @@
+[submodule "themes/stack-starter"]
+	path = themes/stack-starter
+	url = https://github.com/AnkitaB5007/hugo-theme-stack-starter.git
+[submodule "themes/mainroad"]
+	path = themes/mainroad
+	url = https://github.com/vimux/mainroad.git
