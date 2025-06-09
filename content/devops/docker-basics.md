@@ -1,5 +1,5 @@
 ---
-date: 025-06-10T00:02:57+02:00  
+date: 2025-06-10T00:02:57+02:00
 draft: false  
 title: Docker Basic commands 
 ---
