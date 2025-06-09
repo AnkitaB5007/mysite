@@ -1,13 +1,18 @@
-Certainly. Below is the entire answer formatted in Markdown (`.md`) style for direct inclusion into your blog post or documentation.
-
+---
++++
+date = '2025-06-10T00:02:57+02:00'
+draft = false
+title = 'Docker Basic commands'
++++
 ---
 
-````markdown
+
+
 # 🔍 Debugging Docker Images and Containers: A Practical Guide
 
 This guide explains how to **build**, **debug**, **inspect**, and **deploy** Docker containers with a focus on real-world tasks like transferring images to edge devices (e.g., Orange Pi).
 
----
+
 
 ## 🧱 1. Build a Docker Image from a Dockerfile
 
@@ -15,7 +20,7 @@ Use the following command to build a Docker image from a `Dockerfile`:
 
 ```bash
 docker build -t my_image_name .
-````
+```
 
 ### Debugging During Build
 
@@ -97,10 +102,6 @@ Use [`dive`](https://github.com/wagoodman/dive) to inspect image layers and file
 
 Install:
 
-```bash
-# macOS
-brew install dive
-
 # Ubuntu
 sudo apt install dive
 ```
@@ -169,23 +170,7 @@ ENV PYTHONPATH=/app
 CMD ["bash"]
 ```
 
----
 
-## 📌 Summary Table
-
-| Task                       | Command                                      |
-| -------------------------- | -------------------------------------------- |
-| Build Image                | `docker build -t name .`                     |
-| Run with Shell             | `docker run -it --entrypoint /bin/bash name` |
-| Inspect Filesystem         | `ls`, `cat`, `which`, etc.                   |
-| Copy File to Container     | `docker cp file.txt container:/path/`        |
-| Copy File from Container   | `docker cp container:/file.txt ./`           |
-| Save Image for Transfer    | `docker save name > name.tar`                |
-| Load Image on Orange Pi    | `docker load < name.tar`                     |
-| Run Container on Orange Pi | `docker run -it name`                        |
-
----
 
 For automation, container registry integration, or CI/CD workflows using GitHub Actions, see the next part of this blog series.
 
-```
