@@ -1,9 +1,8 @@
 ---
-date = 2025-06-10T00:02:57+02:00
-draft = false
-title = Docker Basic commands
+date: 025-06-10T00:02:57+02:00  
+draft: false  
+title: Docker Basic commands 
 ---
-
 
 # 🔍 Debugging Docker Images and Containers: A Practical Guide
 
