@@ -12,12 +12,17 @@ theme= 'mainroad'
     [[menu.main]]
     name = "Devops"
     url= "/devops/"
-    weight= 1
+    weight= 2
+
+    [[menu.main]]
+    name = "Networking"
+    url = "/devops/networking/"
+    weight = 3
 
     [[menu.main]]
     name = "ML/DL"
     url= "/ml-dl/"
-    weight= 1
+    weight= 2
 
     [[menu.main]]
     name = "Random"
