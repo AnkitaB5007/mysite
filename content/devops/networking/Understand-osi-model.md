@@ -4,9 +4,8 @@ draft = true
 title = 'Understand OSI Model'
 +++
 
-![OSI Model](../../static/networking/OSI.drawio.svg)
 
-# Understand OSI Model
+![OSI Model Diagram](../../static/networking/OSI.svg)
 
 The OSI (Open Systems Interconnection) Model defines how data moves through a network, from one device to another. It has seven layers, each with specific functions. Let's explore the key layers covered in this post.
 
