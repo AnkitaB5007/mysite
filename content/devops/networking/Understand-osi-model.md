@@ -5,7 +5,7 @@ title = 'Understand OSI Model'
 +++
 
 
-![OSI Model Diagram](../../static/networking/OSI.svg)
+![OSI Model](/networking/OSI.svg))
 
 The OSI (Open Systems Interconnection) Model defines how data moves through a network, from one device to another. It has seven layers, each with specific functions. Let's explore the key layers covered in this post.
 
